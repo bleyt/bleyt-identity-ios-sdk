@@ -1,0 +1,22 @@
+{
+  "name": "BleytIdentity",
+  "version": "0.1.0",
+  "summary": "A short description of BleytIdentity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/koyinusa@gmail.com/BleytIdentity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "koyinusa@gmail.com": "kenny@mytoddlr.com"
+  },
+  "source": {
+    "git": "https://github.com/koyinusa@gmail.com/BleytIdentity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BleytIdentity/Classes/**/*"
+}

@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13D485FC8C7B0C18335526168BB778CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		207C1829A354595F66B907929AF81CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34C2CAE15A22D2060D159C8DC341B890 /* Pods-BleytIdentity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */; };
+		4E9B56EE7610FF3A9E9414A169813B2E /* Pods-BleytIdentity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5581BD3DBF29C2891B370BE65DD8DD4C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */; };
+		D7349C457D5FC28F4108EA9EF84CE798 /* Pods-BleytIdentity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636415E9D4E9E0176FEF7BBAEFADF34E /* Pods-BleytIdentity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D431861FCB8858C70DE98A015393A4C /* BleytIdentity-dummy.m */; };
+		E7C3EA143D86022A3E5A8E84AD2A3925 /* BleytIdentity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C70A5543F9EC36EF69FC76B95D47AB /* BleytIdentity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C7037D3DBD5B3187AF48D3C34C7E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FADC712F3E04D7B8E40E0302DDBAA3FF /* Pods-BleytIdentity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA9788AD20F1811285B264F0314F7FA /* Pods-BleytIdentity_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38838F268A7373B581F19B9BC1DB0781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7859D48F0A5F28E49A78997444CDFE9A;
+			remoteInfo = BleytIdentity;
+		};
+		9D1E7E306439EF0DBEFAC1FA7A1C1693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFAEB6A1A94DDFF60DC1B1EC7F1AB8D;
+			remoteInfo = "Pods-BleytIdentity_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124795642A6609691D17915AD7BF294C /* Pods-BleytIdentity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleytIdentity_Tests-umbrella.h"; sourceTree = "<group>"; };
+		26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleytIdentity_Tests-dummy.m"; sourceTree = "<group>"; };
+		2F6E6F573BA641E286112C5BA2F0B7E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		343F3258C2165CFCA0AA720457391348 /* Pods-BleytIdentity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleytIdentity_Example.modulemap"; sourceTree = "<group>"; };
+		3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BleytIdentity/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		43FD2A4BF1802C98A6EAF8EC7EC75769 /* Pods-BleytIdentity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleytIdentity_Tests.modulemap"; sourceTree = "<group>"; };
+		44E32C1341B1C19FF7D96339C256475C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4AC6532A36CC18EC8B2C7723C82FD49E /* BleytIdentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BleytIdentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B150297DE670676F617A6529E4858CC /* BleytIdentity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BleytIdentity-Info.plist"; sourceTree = "<group>"; };
+		4FA9788AD20F1811285B264F0314F7FA /* Pods-BleytIdentity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleytIdentity_Example-dummy.m"; sourceTree = "<group>"; };
+		5158283E7002EE89DCD423D9289B218A /* Pods_BleytIdentity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleytIdentity_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D431861FCB8858C70DE98A015393A4C /* BleytIdentity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BleytIdentity-dummy.m"; sourceTree = "<group>"; };
+		636415E9D4E9E0176FEF7BBAEFADF34E /* Pods-BleytIdentity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleytIdentity_Example-umbrella.h"; sourceTree = "<group>"; };
+		67C70A5543F9EC36EF69FC76B95D47AB /* BleytIdentity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BleytIdentity-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76985BF8E58A94086AD3BF2B73A88505 /* Pods-BleytIdentity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BleytIdentity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77ABEBBC797E744687C888878273474F /* Pods_BleytIdentity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BleytIdentity_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A8D5636977CC74737E5C4B0D160F3E /* BleytIdentity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BleytIdentity.release.xcconfig; sourceTree = "<group>"; };
+		80D6665FC839BD5B71B71DBA4455E71E /* Pods-BleytIdentity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0D01415AC860C82AD5F142D8829A83 /* Pods-BleytIdentity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9225D7E46305CEA83E7CA1EEBF12A008 /* Pods-BleytIdentity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Example.release.xcconfig"; sourceTree = "<group>"; };
+		937E31C9B2A89C9376E686D613D7F9C9 /* Pods-BleytIdentity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BleytIdentity_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC4FA68AD680C7E03F85CCE2754ADB66 /* Pods-BleytIdentity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleytIdentity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4284CB18D1F86484426A9D4605A05BA /* Pods-BleytIdentity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleytIdentity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C190229D9FA42082E27131217FCFC7EA /* BleytIdentity.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BleytIdentity.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5E4C9F5C58A2F1B29DEA771464A0735 /* Pods-BleytIdentity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BleytIdentity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C808D6785182A282A68522537F22C641 /* BleytIdentity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BleytIdentity.modulemap; sourceTree = "<group>"; };
+		CB25892229647B5A7657D99A1345D9E5 /* Pods-BleytIdentity_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleytIdentity_Example-Info.plist"; sourceTree = "<group>"; };
+		D7593CF702E49976FA5B891AC883E921 /* BleytIdentity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BleytIdentity.debug.xcconfig; sourceTree = "<group>"; };
+		DEF5CCCE409FC2767B3FC09E619E89DF /* Pods-BleytIdentity_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleytIdentity_Tests-Info.plist"; sourceTree = "<group>"; };
+		FC5FF14C571669CADCC938E3F303A82F /* BleytIdentity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BleytIdentity-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDC3E3B08E20266DE60C32EA33A707B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D485FC8C7B0C18335526168BB778CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B886F045B7A6CD133B6F0466F4566305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207C1829A354595F66B907929AF81CD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2D1294CD76664A0E15AD039499A2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C7037D3DBD5B3187AF48D3C34C7E99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D95AE43E94F9B11716DCA94F6EB0874 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B27D09CD228E1A9573853BF73B7B00B /* Pods-BleytIdentity_Example */,
+				B8DD9CE64F677FE17A623AB816D7B7E7 /* Pods-BleytIdentity_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75739EC16F22AA58588F525060072D75 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C190229D9FA42082E27131217FCFC7EA /* BleytIdentity.podspec */,
+				2F6E6F573BA641E286112C5BA2F0B7E0 /* LICENSE */,
+				44E32C1341B1C19FF7D96339C256475C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8B27D09CD228E1A9573853BF73B7B00B /* Pods-BleytIdentity_Example */ = {
+			isa = PBXGroup;
+			children = (
+				343F3258C2165CFCA0AA720457391348 /* Pods-BleytIdentity_Example.modulemap */,
+				C5E4C9F5C58A2F1B29DEA771464A0735 /* Pods-BleytIdentity_Example-acknowledgements.markdown */,
+				AC4FA68AD680C7E03F85CCE2754ADB66 /* Pods-BleytIdentity_Example-acknowledgements.plist */,
+				4FA9788AD20F1811285B264F0314F7FA /* Pods-BleytIdentity_Example-dummy.m */,
+				937E31C9B2A89C9376E686D613D7F9C9 /* Pods-BleytIdentity_Example-frameworks.sh */,
+				CB25892229647B5A7657D99A1345D9E5 /* Pods-BleytIdentity_Example-Info.plist */,
+				636415E9D4E9E0176FEF7BBAEFADF34E /* Pods-BleytIdentity_Example-umbrella.h */,
+				124795642A6609691D17915AD7BF294C /* Pods-BleytIdentity_Example.debug.xcconfig */,
+				9225D7E46305CEA83E7CA1EEBF12A008 /* Pods-BleytIdentity_Example.release.xcconfig */,
+			);
+			name = "Pods-BleytIdentity_Example";
+			path = "Target Support Files/Pods-BleytIdentity_Example";
+			sourceTree = "<group>";
+		};
+		8C5FD9FD92A8F6C039FD62E39F1DA2D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC6532A36CC18EC8B2C7723C82FD49E /* BleytIdentity.framework */,
+				5158283E7002EE89DCD423D9289B218A /* Pods_BleytIdentity_Example.framework */,
+				77ABEBBC797E744687C888878273474F /* Pods_BleytIdentity_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DD9CE64F677FE17A623AB816D7B7E7 /* Pods-BleytIdentity_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43FD2A4BF1802C98A6EAF8EC7EC75769 /* Pods-BleytIdentity_Tests.modulemap */,
+				76985BF8E58A94086AD3BF2B73A88505 /* Pods-BleytIdentity_Tests-acknowledgements.markdown */,
+				B4284CB18D1F86484426A9D4605A05BA /* Pods-BleytIdentity_Tests-acknowledgements.plist */,
+				26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */,
+				DEF5CCCE409FC2767B3FC09E619E89DF /* Pods-BleytIdentity_Tests-Info.plist */,
+				2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */,
+				80D6665FC839BD5B71B71DBA4455E71E /* Pods-BleytIdentity_Tests.debug.xcconfig */,
+				8D0D01415AC860C82AD5F142D8829A83 /* Pods-BleytIdentity_Tests.release.xcconfig */,
+			);
+			name = "Pods-BleytIdentity_Tests";
+			path = "Target Support Files/Pods-BleytIdentity_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ED87204FF5BB18F70F7DFB673821FA43 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8C5FD9FD92A8F6C039FD62E39F1DA2D9 /* Products */,
+				1D95AE43E94F9B11716DCA94F6EB0874 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFDB06B08F78832EBF4CD08F98A511B2 /* BleytIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */,
+				75739EC16F22AA58588F525060072D75 /* Pod */,
+				F20C22B5F8F8BBDC01CB68C84276EF59 /* Support Files */,
+			);
+			name = BleytIdentity;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED87204FF5BB18F70F7DFB673821FA43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB06B08F78832EBF4CD08F98A511B2 /* BleytIdentity */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F20C22B5F8F8BBDC01CB68C84276EF59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C808D6785182A282A68522537F22C641 /* BleytIdentity.modulemap */,
+				5D431861FCB8858C70DE98A015393A4C /* BleytIdentity-dummy.m */,
+				4B150297DE670676F617A6529E4858CC /* BleytIdentity-Info.plist */,
+				FC5FF14C571669CADCC938E3F303A82F /* BleytIdentity-prefix.pch */,
+				67C70A5543F9EC36EF69FC76B95D47AB /* BleytIdentity-umbrella.h */,
+				D7593CF702E49976FA5B891AC883E921 /* BleytIdentity.debug.xcconfig */,
+				79A8D5636977CC74737E5C4B0D160F3E /* BleytIdentity.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BleytIdentity";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		662BE7333E0D8C1BB755E4B6F720AD4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7349C457D5FC28F4108EA9EF84CE798 /* Pods-BleytIdentity_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B176D492EC1973BBDBA4DB455A64111A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9B56EE7610FF3A9E9414A169813B2E /* Pods-BleytIdentity_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DE27B941E83E37D8BC42AFDA5735A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C3EA143D86022A3E5A8E84AD2A3925 /* BleytIdentity-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BFAEB6A1A94DDFF60DC1B1EC7F1AB8D /* Pods-BleytIdentity_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ACDC707C92276526AF29032BC0C66E /* Build configuration list for PBXNativeTarget "Pods-BleytIdentity_Example" */;
+			buildPhases = (
+				662BE7333E0D8C1BB755E4B6F720AD4F /* Headers */,
+				0761524AA9D0F21B97D958821665BDD9 /* Sources */,
+				CE2D1294CD76664A0E15AD039499A2F9 /* Frameworks */,
+				C18ED00336353C481DE977BF1EF17527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CFD98784401B3FB2CC3CDBEB606AD6 /* PBXTargetDependency */,
+			);
+			name = "Pods-BleytIdentity_Example";
+			productName = "Pods-BleytIdentity_Example";
+			productReference = 5158283E7002EE89DCD423D9289B218A /* Pods_BleytIdentity_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		643F1B29762F280FEC2D471AFF94D524 /* Pods-BleytIdentity_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C10420DB8D332DD29F45316B7ADF0067 /* Build configuration list for PBXNativeTarget "Pods-BleytIdentity_Tests" */;
+			buildPhases = (
+				B176D492EC1973BBDBA4DB455A64111A /* Headers */,
+				900751E5B609B820479EC394DF08DB0B /* Sources */,
+				9EDC3E3B08E20266DE60C32EA33A707B /* Frameworks */,
+				A15E81E917F334715AF335807E798720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77ABDAAE4FEADB578074E90A6F9B788 /* PBXTargetDependency */,
+			);
+			name = "Pods-BleytIdentity_Tests";
+			productName = "Pods-BleytIdentity_Tests";
+			productReference = 77ABEBBC797E744687C888878273474F /* Pods_BleytIdentity_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7859D48F0A5F28E49A78997444CDFE9A /* BleytIdentity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184398674D665B7B0029C4AB56C07979 /* Build configuration list for PBXNativeTarget "BleytIdentity" */;
+			buildPhases = (
+				F1DE27B941E83E37D8BC42AFDA5735A9 /* Headers */,
+				55065657B9E97A959FFB069A0921F2A0 /* Sources */,
+				B886F045B7A6CD133B6F0466F4566305 /* Frameworks */,
+				F9A95CD0235AA0C5CF17F5C30B664DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleytIdentity;
+			productName = BleytIdentity;
+			productReference = 4AC6532A36CC18EC8B2C7723C82FD49E /* BleytIdentity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					5BFAEB6A1A94DDFF60DC1B1EC7F1AB8D = {
+						DevelopmentTeam = 54T3KTML74;
+					};
+					643F1B29762F280FEC2D471AFF94D524 = {
+						DevelopmentTeam = 54T3KTML74;
+					};
+					7859D48F0A5F28E49A78997444CDFE9A = {
+						DevelopmentTeam = 54T3KTML74;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C5FD9FD92A8F6C039FD62E39F1DA2D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7859D48F0A5F28E49A78997444CDFE9A /* BleytIdentity */,
+				5BFAEB6A1A94DDFF60DC1B1EC7F1AB8D /* Pods-BleytIdentity_Example */,
+				643F1B29762F280FEC2D471AFF94D524 /* Pods-BleytIdentity_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15E81E917F334715AF335807E798720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18ED00336353C481DE977BF1EF17527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A95CD0235AA0C5CF17F5C30B664DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0761524AA9D0F21B97D958821665BDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC712F3E04D7B8E40E0302DDBAA3FF /* Pods-BleytIdentity_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55065657B9E97A959FFB069A0921F2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */,
+				5581BD3DBF29C2891B370BE65DD8DD4C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900751E5B609B820479EC394DF08DB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C2CAE15A22D2060D159C8DC341B890 /* Pods-BleytIdentity_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71CFD98784401B3FB2CC3CDBEB606AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BleytIdentity;
+			target = 7859D48F0A5F28E49A78997444CDFE9A /* BleytIdentity */;
+			targetProxy = 38838F268A7373B581F19B9BC1DB0781 /* PBXContainerItemProxy */;
+		};
+		D77ABDAAE4FEADB578074E90A6F9B788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BleytIdentity_Example";
+			target = 5BFAEB6A1A94DDFF60DC1B1EC7F1AB8D /* Pods-BleytIdentity_Example */;
+			targetProxy = 9D1E7E306439EF0DBEFAC1FA7A1C1693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019023582950CCA9D4063FE6C12C6B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A8D5636977CC74737E5C4B0D160F3E /* BleytIdentity.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BleytIdentity/BleytIdentity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BleytIdentity/BleytIdentity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BleytIdentity/BleytIdentity.modulemap";
+				PRODUCT_MODULE_NAME = BleytIdentity;
+				PRODUCT_NAME = BleytIdentity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4F1A2E82684D2E6FC6ABD274182B07AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D6665FC839BD5B71B71DBA4455E71E /* Pods-BleytIdentity_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleytIdentity_Tests/Pods-BleytIdentity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleytIdentity_Tests/Pods-BleytIdentity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9826DCE7A2E468DDB253EC674DE39E6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124795642A6609691D17915AD7BF294C /* Pods-BleytIdentity_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleytIdentity_Example/Pods-BleytIdentity_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleytIdentity_Example/Pods-BleytIdentity_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A29CBC6D135FEBC643E29E83CF60D441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7593CF702E49976FA5B891AC883E921 /* BleytIdentity.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BleytIdentity/BleytIdentity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BleytIdentity/BleytIdentity-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BleytIdentity/BleytIdentity.modulemap";
+				PRODUCT_MODULE_NAME = BleytIdentity;
+				PRODUCT_NAME = BleytIdentity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA1A0E8E40B6214291E97F93E05EDA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0D01415AC860C82AD5F142D8829A83 /* Pods-BleytIdentity_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleytIdentity_Tests/Pods-BleytIdentity_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleytIdentity_Tests/Pods-BleytIdentity_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB21A56B2119EB6A62E9CF330E5EFD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9225D7E46305CEA83E7CA1EEBF12A008 /* Pods-BleytIdentity_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54T3KTML74;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleytIdentity_Example/Pods-BleytIdentity_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleytIdentity_Example/Pods-BleytIdentity_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184398674D665B7B0029C4AB56C07979 /* Build configuration list for PBXNativeTarget "BleytIdentity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29CBC6D135FEBC643E29E83CF60D441 /* Debug */,
+				019023582950CCA9D4063FE6C12C6B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ACDC707C92276526AF29032BC0C66E /* Build configuration list for PBXNativeTarget "Pods-BleytIdentity_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9826DCE7A2E468DDB253EC674DE39E6E /* Debug */,
+				DB21A56B2119EB6A62E9CF330E5EFD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C10420DB8D332DD29F45316B7ADF0067 /* Build configuration list for PBXNativeTarget "Pods-BleytIdentity_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1A2E82684D2E6FC6ABD274182B07AA /* Debug */,
+				CA1A0E8E40B6214291E97F93E05EDA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

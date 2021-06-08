@@ -1,0 +1,6 @@
+framework module BleytIdentity {
+  umbrella header "BleytIdentity-umbrella.h"
+
+  export *
+  module * { export * }
+}

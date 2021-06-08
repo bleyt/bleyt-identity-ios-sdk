@@ -1,0 +1,16 @@
+PODS:
+  - BleytIdentity (0.1.0)
+
+DEPENDENCIES:
+  - BleytIdentity (from `../`)
+
+EXTERNAL SOURCES:
+  BleytIdentity:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BleytIdentity: 0328bf192f18f026ea9af7fa6afcc28dc9747bb1
+
+PODFILE CHECKSUM: 3ff58c138b5975494d4fc00003474eb8dde9428a
+
+COCOAPODS: 1.10.1
