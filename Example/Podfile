@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BleytIdentity_Example' do
+  pod 'BleytIdentity', :path => '../'
+
+  target 'BleytIdentity_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
