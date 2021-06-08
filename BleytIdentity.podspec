@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BleytIdentity'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BleytIdentity.'
+  s.summary          = 'BleytIdentity is the iOS SDK for Bleyt Identity; the only digit passport that you will ever need.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/koyinusa@gmail.com/BleytIdentity'
+  s.homepage         = 'https://github.com/bleyt/bleyt-identity-ios-sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'koyinusa@gmail.com' => 'kenny@mytoddlr.com' }
-  s.source           = { :git => 'https://github.com/koyinusa@gmail.com/BleytIdentity.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'koyinusa@gmail.com' => 'kenny@bleyt.com' }
+  s.source           = { :git => 'https://github.com/bleyt/bleyt-identity-ios-sdk.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ribads'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'BleytIdentity/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'BleytIdentity' => ['BleytIdentity/Assets/*.png']
