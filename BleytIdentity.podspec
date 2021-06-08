@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'koyinusa@gmail.com' => 'kenny@bleyt.com' }
   s.source           = { :git => 'https://github.com/bleyt/bleyt-identity-ios-sdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ribads'
+  s.swift_versions   = '5.0'
 
   s.ios.deployment_target = '13.0'
 
