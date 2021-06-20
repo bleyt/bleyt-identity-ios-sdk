@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BleytIdentity'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'BleytIdentity is the iOS SDK for Bleyt Identity; the only digit passport that you will ever need.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This is the Bleyt Identity iOS SDK. With Bleyt, your customers are just one click away from sharing all needed data with you. No form is required; specify the information you require, and we will do the rest for you. 
+This is the Bleyt Identity iOS SDK. With Bleyt, your customers are just one click away from sharing all needed data with you. No form is required; specify the information you require, and we will do the rest for you.
                        DESC
 
   s.homepage         = 'https://github.com/bleyt/bleyt-identity-ios-sdk'
