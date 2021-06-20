@@ -7,13 +7,15 @@
 
 import Foundation
 import UIKit
+import Combine
 
 public class ApplicationDetailsController : UIViewController {
     
-    private let mobileKey : String
+    private var viewModel : ApplicationDetailsViewModel
+    private var cancellables : Set<AnyCancellable> = []
     
     public init(mobileKey: String) {
-        self.mobileKey = mobileKey
+        self.viewModel = ApplicationDetailsViewModel(useCase: ApplicationDetailsUseCaseImpl(mobileKey: mobileKey))
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -157,6 +159,15 @@ public class ApplicationDetailsController : UIViewController {
     }
     
     private func initData() {
+        self.viewModel.$request.sink { request in
+            if let request = request {
+                //Now update the collectionView
+                self.collectionView.reloadData()
+            }
+        }.store(in: &cancellables)
+        
+        self.viewModel.fetchApplicationRequest()
+        
         self.closeImageView.isUserInteractionEnabled = true
         self.closeImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.onCancelClick)))
         
@@ -184,14 +195,15 @@ public class ApplicationDetailsController : UIViewController {
     }
     
     @objc func onCancelClick() {
-        
+        //Send back a result that the request was cancelled.
     }
     
     @objc func onAllowClick() {
-        NetworkManager.shared.getApplicationRequest(mobileKey: self.mobileKey) { details in
-            //update the collectionView
+        if let url = URL(string: "bleyt://authorize/\(self.viewModel.getMobileKey())"), UIApplication.shared.canOpenURL(url) {
+            //Then the app is installed.
+        } else {
+            self.present(BleytAccountRegistrationController(), animated: true, completion: nil)
         }
-        
     }
     
     required init?(coder: NSCoder) {

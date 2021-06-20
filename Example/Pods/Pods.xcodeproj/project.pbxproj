@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0009A8D2267FF05B00624727 /* ApplicationDetailsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009A8D1267FF05B00624727 /* ApplicationDetailsUseCase.swift */; };
+		0009A8D4267FF1F700624727 /* CompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009A8D3267FF1F700624727 /* CompletionHandler.swift */; };
+		0009A8D6267FF64300624727 /* BleytAccountRegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0009A8D5267FF64300624727 /* BleytAccountRegistrationController.swift */; };
 		003410E2267F7F70001B8094 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D4267F7F70001B8094 /* GradientView.swift */; };
 		003410E3267F7F70001B8094 /* BleytButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D5267F7F70001B8094 /* BleytButton.swift */; };
 		003410E4267F7F70001B8094 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D6267F7F70001B8094 /* PaddedLabel.swift */; };
@@ -18,6 +21,7 @@
 		003410EA267F7F70001B8094 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DF267F7F70001B8094 /* UIButton.swift */; };
 		003410EB267F7F70001B8094 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410E0267F7F70001B8094 /* UIFont.swift */; };
 		003410EC267F7F70001B8094 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410E1267F7F70001B8094 /* ButtonStyle.swift */; };
+		0034112C267FEFFD001B8094 /* ApplicationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0034112B267FEFFD001B8094 /* ApplicationDetailsViewModel.swift */; };
 		13D485FC8C7B0C18335526168BB778CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		207C1829A354595F66B907929AF81CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34C2CAE15A22D2060D159C8DC341B890 /* Pods-BleytIdentity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */; };
@@ -47,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0009A8D1267FF05B00624727 /* ApplicationDetailsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDetailsUseCase.swift; sourceTree = "<group>"; };
+		0009A8D3267FF1F700624727 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
+		0009A8D5267FF64300624727 /* BleytAccountRegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleytAccountRegistrationController.swift; sourceTree = "<group>"; };
 		003410D4267F7F70001B8094 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		003410D5267F7F70001B8094 /* BleytButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleytButton.swift; sourceTree = "<group>"; };
 		003410D6267F7F70001B8094 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 		003410DF267F7F70001B8094 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		003410E0267F7F70001B8094 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		003410E1267F7F70001B8094 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		0034112B267FEFFD001B8094 /* ApplicationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDetailsViewModel.swift; sourceTree = "<group>"; };
 		124795642A6609691D17915AD7BF294C /* Pods-BleytIdentity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleytIdentity_Tests-umbrella.h"; sourceTree = "<group>"; };
 		26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleytIdentity_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -120,14 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0009A8D0267FF04F00624727 /* Usecase */ = {
+			isa = PBXGroup;
+			children = (
+				0009A8D1267FF05B00624727 /* ApplicationDetailsUseCase.swift */,
+			);
+			path = Usecase;
+			sourceTree = "<group>";
+		};
 		003410D2267F7EFA001B8094 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0034112A267FEFDA001B8094 /* ViewModel */,
 				003410D7267F7F70001B8094 /* Controller */,
 				003410D9267F7F70001B8094 /* Model */,
 				003410DB267F7F70001B8094 /* NetworkManager.swift */,
 				003410DC267F7F70001B8094 /* Style */,
 				003410D3267F7F70001B8094 /* Widget */,
+				0009A8D3267FF1F700624727 /* CompletionHandler.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -146,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				003410D8267F7F70001B8094 /* ApplicationDetailsController.swift */,
+				0009A8D5267FF64300624727 /* BleytAccountRegistrationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -168,6 +187,15 @@
 				003410E1267F7F70001B8094 /* ButtonStyle.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		0034112A267FEFDA001B8094 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0009A8D0267FF04F00624727 /* Usecase */,
+				0034112B267FEFFD001B8094 /* ApplicationDetailsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		1D95AE43E94F9B11716DCA94F6EB0874 /* Targets Support Files */ = {
@@ -458,16 +486,20 @@
 			files = (
 				003410EC267F7F70001B8094 /* ButtonStyle.swift in Sources */,
 				003410E3267F7F70001B8094 /* BleytButton.swift in Sources */,
+				0034112C267FEFFD001B8094 /* ApplicationDetailsViewModel.swift in Sources */,
+				0009A8D4267FF1F700624727 /* CompletionHandler.swift in Sources */,
 				D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */,
 				003410E4267F7F70001B8094 /* PaddedLabel.swift in Sources */,
 				003410E9267F7F70001B8094 /* UIFontType.swift in Sources */,
 				003410E8267F7F70001B8094 /* UIColor.swift in Sources */,
 				003410E7267F7F70001B8094 /* NetworkManager.swift in Sources */,
 				003410E2267F7F70001B8094 /* GradientView.swift in Sources */,
+				0009A8D2267FF05B00624727 /* ApplicationDetailsUseCase.swift in Sources */,
 				003410EB267F7F70001B8094 /* UIFont.swift in Sources */,
 				003410EA267F7F70001B8094 /* UIButton.swift in Sources */,
 				003410E6267F7F70001B8094 /* ApplicationRequest.swift in Sources */,
 				003410E5267F7F70001B8094 /* ApplicationDetailsController.swift in Sources */,
+				0009A8D6267FF64300624727 /* BleytAccountRegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
