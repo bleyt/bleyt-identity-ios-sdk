@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import BleytIdentity
 
 class ViewController: UIViewController {
+    
+    private var controller = ApplicationDetailsController(mobileKey: "Test")
 
     override func viewDidLoad() {
         super.viewDidLoad()

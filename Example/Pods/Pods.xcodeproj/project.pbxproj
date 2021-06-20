@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003410E2267F7F70001B8094 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D4267F7F70001B8094 /* GradientView.swift */; };
+		003410E3267F7F70001B8094 /* BleytButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D5267F7F70001B8094 /* BleytButton.swift */; };
+		003410E4267F7F70001B8094 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D6267F7F70001B8094 /* PaddedLabel.swift */; };
+		003410E5267F7F70001B8094 /* ApplicationDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410D8267F7F70001B8094 /* ApplicationDetailsController.swift */; };
+		003410E6267F7F70001B8094 /* ApplicationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DA267F7F70001B8094 /* ApplicationRequest.swift */; };
+		003410E7267F7F70001B8094 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DB267F7F70001B8094 /* NetworkManager.swift */; };
+		003410E8267F7F70001B8094 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DD267F7F70001B8094 /* UIColor.swift */; };
+		003410E9267F7F70001B8094 /* UIFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DE267F7F70001B8094 /* UIFontType.swift */; };
+		003410EA267F7F70001B8094 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410DF267F7F70001B8094 /* UIButton.swift */; };
+		003410EB267F7F70001B8094 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410E0267F7F70001B8094 /* UIFont.swift */; };
+		003410EC267F7F70001B8094 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003410E1267F7F70001B8094 /* ButtonStyle.swift */; };
 		13D485FC8C7B0C18335526168BB778CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		207C1829A354595F66B907929AF81CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34C2CAE15A22D2060D159C8DC341B890 /* Pods-BleytIdentity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */; };
@@ -37,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003410D4267F7F70001B8094 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		003410D5267F7F70001B8094 /* BleytButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleytButton.swift; sourceTree = "<group>"; };
+		003410D6267F7F70001B8094 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		003410D8267F7F70001B8094 /* ApplicationDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationDetailsController.swift; sourceTree = "<group>"; };
+		003410DA267F7F70001B8094 /* ApplicationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationRequest.swift; sourceTree = "<group>"; };
+		003410DB267F7F70001B8094 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		003410DD267F7F70001B8094 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		003410DE267F7F70001B8094 /* UIFontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontType.swift; sourceTree = "<group>"; };
+		003410DF267F7F70001B8094 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		003410E0267F7F70001B8094 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		003410E1267F7F70001B8094 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		124795642A6609691D17915AD7BF294C /* Pods-BleytIdentity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleytIdentity_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleytIdentity_Tests-umbrella.h"; sourceTree = "<group>"; };
 		26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleytIdentity_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -100,6 +122,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003410D2267F7EFA001B8094 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				003410D7267F7F70001B8094 /* Controller */,
+				003410D9267F7F70001B8094 /* Model */,
+				003410DB267F7F70001B8094 /* NetworkManager.swift */,
+				003410DC267F7F70001B8094 /* Style */,
+				003410D3267F7F70001B8094 /* Widget */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		003410D3267F7F70001B8094 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				003410D4267F7F70001B8094 /* GradientView.swift */,
+				003410D5267F7F70001B8094 /* BleytButton.swift */,
+				003410D6267F7F70001B8094 /* PaddedLabel.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		003410D7267F7F70001B8094 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				003410D8267F7F70001B8094 /* ApplicationDetailsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		003410D9267F7F70001B8094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				003410DA267F7F70001B8094 /* ApplicationRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		003410DC267F7F70001B8094 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				003410DD267F7F70001B8094 /* UIColor.swift */,
+				003410DE267F7F70001B8094 /* UIFontType.swift */,
+				003410DF267F7F70001B8094 /* UIButton.swift */,
+				003410E0267F7F70001B8094 /* UIFont.swift */,
+				003410E1267F7F70001B8094 /* ButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		1D95AE43E94F9B11716DCA94F6EB0874 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +256,7 @@
 		CFDB06B08F78832EBF4CD08F98A511B2 /* BleytIdentity */ = {
 			isa = PBXGroup;
 			children = (
+				003410D2267F7EFA001B8094 /* Sources */,
 				3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */,
 				75739EC16F22AA58588F525060072D75 /* Pod */,
 				F20C22B5F8F8BBDC01CB68C84276EF59 /* Support Files */,
@@ -386,8 +459,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003410EC267F7F70001B8094 /* ButtonStyle.swift in Sources */,
+				003410E3267F7F70001B8094 /* BleytButton.swift in Sources */,
 				D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */,
 				5581BD3DBF29C2891B370BE65DD8DD4C /* ReplaceMe.swift in Sources */,
+				003410E4267F7F70001B8094 /* PaddedLabel.swift in Sources */,
+				003410E9267F7F70001B8094 /* UIFontType.swift in Sources */,
+				003410E8267F7F70001B8094 /* UIColor.swift in Sources */,
+				003410E7267F7F70001B8094 /* NetworkManager.swift in Sources */,
+				003410E2267F7F70001B8094 /* GradientView.swift in Sources */,
+				003410EB267F7F70001B8094 /* UIFont.swift in Sources */,
+				003410EA267F7F70001B8094 /* UIButton.swift in Sources */,
+				003410E6267F7F70001B8094 /* ApplicationRequest.swift in Sources */,
+				003410E5267F7F70001B8094 /* ApplicationDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +526,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,7 +693,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
