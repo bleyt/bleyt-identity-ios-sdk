@@ -22,7 +22,6 @@
 		207C1829A354595F66B907929AF81CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		34C2CAE15A22D2060D159C8DC341B890 /* Pods-BleytIdentity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */; };
 		4E9B56EE7610FF3A9E9414A169813B2E /* Pods-BleytIdentity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2134D0D37240B9918DA981CCD4E66D01 /* Pods-BleytIdentity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5581BD3DBF29C2891B370BE65DD8DD4C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */; };
 		D7349C457D5FC28F4108EA9EF84CE798 /* Pods-BleytIdentity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 636415E9D4E9E0176FEF7BBAEFADF34E /* Pods-BleytIdentity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D431861FCB8858C70DE98A015393A4C /* BleytIdentity-dummy.m */; };
 		E7C3EA143D86022A3E5A8E84AD2A3925 /* BleytIdentity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C70A5543F9EC36EF69FC76B95D47AB /* BleytIdentity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +63,6 @@
 		26BA639BB08C8F641C81124C4D66FF7F /* Pods-BleytIdentity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleytIdentity_Tests-dummy.m"; sourceTree = "<group>"; };
 		2F6E6F573BA641E286112C5BA2F0B7E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		343F3258C2165CFCA0AA720457391348 /* Pods-BleytIdentity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleytIdentity_Example.modulemap"; sourceTree = "<group>"; };
-		3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BleytIdentity/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		43FD2A4BF1802C98A6EAF8EC7EC75769 /* Pods-BleytIdentity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleytIdentity_Tests.modulemap"; sourceTree = "<group>"; };
 		44E32C1341B1C19FF7D96339C256475C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4AC6532A36CC18EC8B2C7723C82FD49E /* BleytIdentity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BleytIdentity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -257,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				003410D2267F7EFA001B8094 /* Sources */,
-				3CE57F5E457F342A200440C8D4062786 /* ReplaceMe.swift */,
 				75739EC16F22AA58588F525060072D75 /* Pod */,
 				F20C22B5F8F8BBDC01CB68C84276EF59 /* Support Files */,
 			);
@@ -462,7 +459,6 @@
 				003410EC267F7F70001B8094 /* ButtonStyle.swift in Sources */,
 				003410E3267F7F70001B8094 /* BleytButton.swift in Sources */,
 				D9C1B477D9BC0E2383653754D5AA3A8E /* BleytIdentity-dummy.m in Sources */,
-				5581BD3DBF29C2891B370BE65DD8DD4C /* ReplaceMe.swift in Sources */,
 				003410E4267F7F70001B8094 /* PaddedLabel.swift in Sources */,
 				003410E9267F7F70001B8094 /* UIFontType.swift in Sources */,
 				003410E8267F7F70001B8094 /* UIColor.swift in Sources */,

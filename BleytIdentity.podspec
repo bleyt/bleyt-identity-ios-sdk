@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is the Bleyt Identity iOS SDK. With Bleyt, your customers are just one click away from sharing all needed data with you. No form is required; specify the information you require, and we will do the rest for you. 
                        DESC
 
   s.homepage         = 'https://github.com/bleyt/bleyt-identity-ios-sdk'
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'BleytIdentity/Classes/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'BleytIdentity' => ['BleytIdentity/Assets/*.png']
